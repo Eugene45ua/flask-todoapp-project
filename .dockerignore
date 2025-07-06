@@ -1,0 +1,28 @@
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore local virtual environment
+venv/
+
+# Ignore local SQLite database if you don’t want it in the image
+*.db
+instance/
+
+# Ignore development/test folders
+testenv/
+
+# Ignore editor/OS specific files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Optional: backup or temp files
+*.bak
+*.tmp
